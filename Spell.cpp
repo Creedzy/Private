@@ -11,7 +11,7 @@ ASpell::ASpell(const FObjectInitializer& ObjectInitializer)
 {
 	PrimaryActorTick.bCanEverTick = true;
 	bReplicates = true;
-	//Test for Git2
+	//Test for Git4
 	//Create the root sphere component to handle the collision detection
 	BaseCollisionComponent = ObjectInitializer.CreateDefaultSubobject<USphereComponent>(this, TEXT("BaseSphereComponent"));
 	RootComponent = BaseCollisionComponent;
